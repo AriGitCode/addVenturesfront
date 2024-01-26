@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.popup{
+    width: 300px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    background-color: rgb(115, 205, 223);
+    border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pin{
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.place{
+    font-size: 14px;
+    color: tomato;
+}
+label{
+    color: darkblue;
+    font-size: 13px;
+    border-bottom: 1.5px solid darkblue;
+    margin: 3px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.descrip{
+    font-size: 13px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hearts{
+    color:rgb(250, 227, 20)
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: grey;
+}
+
+form{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input,textarea{
+    border: none;
+    border-bottom: 1px solid darkblue;
+    outline: none;
+}
+
+span{
+    color: rgb(255, 225, 0);
+}
+.firstname{
+    color: goldenrod;
+}
+input::placeholder, textarea::placeholder{
+    font-size: 13px;
+    color: gray;
+}
+
+.btnPin{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: beige;
+    background-color: orange;
+    margin-right: 5px;
+}
+
+.btnPin:hover{
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+
+
+
+.btnDelete{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: beige;
+    background-color:green;
 }
