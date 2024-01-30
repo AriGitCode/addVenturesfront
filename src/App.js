@@ -1,16 +1,14 @@
-// src/App.js
+
 import React , {useState, useEffect} from 'react';
 import './App.css'
 import {  Route, Routes, Navigate, useNavigate} from 'react-router-dom';
 import Navbar from './components/navigation/Navbar';
 import Home from './pages/homePage/Home';
 import Places from  './pages/map/Places';
-import Wishlist from './pages/wishlist/wishlist';
+import Memories from './pages/memories/memories';
 import Login from './components/user/Login';
 import mapboxgl from 'mapbox-gl';
 import Signup from "./components/user/Signup";
-// eslint-disable-line import/no-webpack-loader-syntax
-
 
 
 const App = () => {
@@ -66,7 +64,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>} /> 
         <Route path="/places" element={<Places userID={userID} token={token}/>} />
-        <Route path="/whishlist" element={<Wishlist userID={userID} token={token}/>} />
+        <Route path="/memories" element={<Memories userID={userID} token={token}/>} />
         <Route path="/login" element={<Login login={login}  setToken={setUserToken}/>} />
         <Route path="/signup" element={<Signup login={login}  setToken={setUserToken}/>} />
         <Route path="*" element={<Navigate to="/" />} />

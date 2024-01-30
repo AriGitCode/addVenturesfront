@@ -1,5 +1,3 @@
-/* Login.css */
-
 body {
     background-image: url("../../assets/ballon.avif");
     background-size: cover;
@@ -60,7 +58,7 @@ p {
 }
 
 .signUp {
-    background-color: #3498db;
+    background-color: #44a2c4;
     color: #ffffff;
     padding: 10px;
     border: none;
@@ -71,117 +69,6 @@ p {
 }
 
 .signUp:hover {
-    background-color: #2980b9;
+    background-color: #23506f;
 }
 
-/* body .wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url()
-    no-repeat; 
-    background-size: cover;
-    background-position: center;
-   
-}
-
-.wrapper{
-     width: 420px;  
-    background: transparent; 
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(25px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    border-radius: 10px;
-    padding: 30px 40px;
-
-}
-
-.wrapper h1{
-    text-align: center;
-    font-size: 40px;
-}
-
-.wrapper .input-box{
-   position: relative;
-   width: 100%;
-   height: 50px;
-   background: salmon;
-   margin: 30px 0;
-}
-
-.input-box input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 40px;
-    font-size: 17px;
-    color: #fff;
-    padding: 20px 45px 20px 30px;
-}
-
-.input-box input::placeholder{
-    color: #fff;
-}
-
-.input-box .icon{
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 17px;
-}
-
-.wrapper .remember-forgot{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    margin: -15px 0 15px;
-}
-
-.remember-forgot label input{
-    accent-color: #fff;
-    margin-right: 4px;
-}
-
-.remember-forgot a{
-    color: #fff;
-}
-
-.remember-forgot a:hover{
-    text-decoration: underline;
-}
-
-.wrapper button{
-    width: 100%;
-    height: 50px;
-    background: #fff;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    font-size: 17px;
-    font-weight: 600;
-    color: #333;
-}
-
-.wrapper .register-link{
-    font-size: 14px;
-    text-align: center;
-    margin: 20px 0 10px;
-}
-
-.register-link p a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.register-link p a:hover{
-    text-decoration: underline;
-} */

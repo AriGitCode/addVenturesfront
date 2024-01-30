@@ -47,8 +47,8 @@
 }
 
 .navbar-button {
+  background-color: #68b4d0;
   text-decoration: none;
-  background-color: #007bff;
   color: azure;
   padding: 10px 20px;
   border-radius: 5px;
@@ -56,6 +56,4 @@
   margin-right: 50px;
 }
 
-.navbar-button:hover {
-  background-color: #0056b3;
-}
+

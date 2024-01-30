@@ -18,8 +18,8 @@ return (
       <Link to="/places" className="navbar-link">
         Places
       </Link>
-      <Link to="/whishlist" className="navbar-link">
-        Wishlist
+      <Link to="/memories" className="navbar-link">
+        Memories
       </Link>
       {props.userProp ?  (
         <>

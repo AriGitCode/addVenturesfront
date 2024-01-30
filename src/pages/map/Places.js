@@ -41,7 +41,7 @@ const Places = (props = {}) => {
     closeEdit();
   }
 
-  const handleAddPinClick = (e) =>{ //add a pin on the map by dbClick
+  const handleAddPinClick = (e) =>{ 
    console.log(e); 
     const lat = e.lngLat.lat;
     const lng = e.lngLat.lng;
@@ -62,14 +62,6 @@ const Places = (props = {}) => {
     wantToGo : wantToGo,
     user: props.userID
   }
-  // try{
-  //   const res = await axios.post('http://localhost:8081/places', newPlace, {headers: {
-  //         'Authorization': 'Bearer ' + props.token
-  //         setNewPlace (null);
-  //  } catch(error){
-  //   console.log(error);
-  //  }
-  // }
   console.log(newPlace2)
   
       axios.post
@@ -106,7 +98,7 @@ const Places = (props = {}) => {
     console.log(lat);
   }
    
-  React.useEffect (() =>{// go to the server and get all the places
+  React.useEffect (() =>{
     const getPlaces = async() => {
         console.log("token : ", localStorage.getItem("token"))
       try{
