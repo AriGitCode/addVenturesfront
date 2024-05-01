@@ -1,71 +1,67 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-AddVentures
+# AddVentures
 AddVentures is a travel mapping app built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It features user authentication and profile creation, allowing users to add, edit, and delete visited places with images and comments, as well as create a wishlist of places to visit in the future.
 
-What the project does
-AddVentures allows users to pin and share the places they've visited around the world. They can upload images, leave comments, and organize their travels in a visually appealing way.
 
-Why the project is useful
+### What the project does
+AddVentures allows users to pin and share the places they've visited around the world. They can upload images, leave comments, and organize their travels in a visually appealing way.
+<img width="1440" alt="Screenshot 2024-04-30 at 10 11 33 PM" src="https://github.com/AriGitCode/addVenturesfront/assets/102875790/526acea9-cc9e-4cd6-9400-c413967e27f0">
+
+<img width="1438" alt="Screenshot 2024-04-30 at 10 13 16 PM" src="https://github.com/AriGitCode/addVenturesfront/assets/102875790/0d87f2a8-edac-4854-9fc4-bddf9759da5e">
+
+<img width="1440" alt="Screenshot 2024-04-30 at 10 10 58 PM" src="https://github.com/AriGitCode/addVenturesfront/assets/102875790/088683a0-fa60-40ac-b51c-da634c018c22">
+
+
+### Why the project is useful
 This app is a beautiful way to log your journeys and share your travel experiences with others. Whether you're a frequent traveler or just starting to explore the world, AddVentures helps you keep track of your adventures and create lasting memories.
 
-Getting Started
+## Getting Started
 To get started with the AddVentures app, follow these steps:
 
-Installation
+## For addVenturesfront Repository
+
+Installation:
 Clone the repository to your local machine:
-bash
-Copy code
-git clone https://github.com/yourusername/addventures.git
+`git clone https://github.com/yourusername/addVenturesfront.git`
+
 Navigate to the project directory:
-bash
-Copy code
-cd addventures
-Install dependencies for both the client and server:
-bash
-Copy code
-cd client
-npm install
-bash
-Copy code
-cd ../server
-npm install
-Set up environment variables:
-Create a .env file in the server directory.
-Add the following variables to the .env file:
-makefile
-Copy code
-PORT=3001
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-Replace your_mongodb_uri with the URI for your MongoDB database, and your_jwt_secret with a secret key for JWT authentication.
-Run the server:
-sql
-Copy code
-npm start
-Run the client:
-bash
-Copy code
-cd ../client
-npm start
-Open your web browser and navigate to http://localhost:3000 to view the app.
+`cd addVenturesfront`
+
+Install dependencies using npm:
+`npm install`
+
+Setup:
+Create a .env file in the root directory of the frontend repository:
+`REACT_APP_MAPBOX_TOKEN=your_mapbox_token_here`
+Replace your_mapbox_token_here with your Mapbox access token.
+
+Start the development server:
+`npm start`
+This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
+
+### For addVenturesbackend Repository
+
+Installation:
+Clone the repository to your local machine:
+`git clone https://github.com/yourusername/addVenturesback.git`
+
+Navigate to the project directory:
+`cd addVenturesback`
+
+Install dependencies using npm:
+`npm install`
+
+Setup:
+Create a .env file in the root directory of the backend repository:
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string_here
+Replace your_mongodb_connection_string_here with your MongoDB connection string.
+
+Start the server:
+`npm start`
+This will start the backend server. By default, it will run on http://localhost:5000.
+
 Contributing
 Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
 
 License
 This project is licensed under the MIT License.
-
-
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
